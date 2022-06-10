@@ -12,35 +12,65 @@
         overflow: hidden;
         width: 40vh;
         height: 100vh;
-        margin-top: 25%;
+        margin-top: 5%;
         text-align: center;
     }
 
+    img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .login_form {
+        padding: 16px;
+        font-size: 14px;
+        background-color: rgba(92, 149, 119, 0.168);
+        border-radius: 5%;
+        border: 1 solid;
+        line-height: 1.5;
+        
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .list{
+       float: left;
+    }
+    ol{
+        display: contents;
+    }
 
 
 </style>
 
 <body>
     <img src="https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg" alt="Github">
-    <h1>Sign in to GitHub</h1>
-    <label>User or email address</label>
-     <br>
-    <input><br>
-    <label>Password</label></body><br>
-    <input></html>
-    <br>
+    
+    <div class="login_form">
+        <h1>Sign in to GitHub</h1>
+        <label>User or email address</label>
+        <br>
+        <input><br>
+        <label>Password</label><br>
+        <input>
+        <br>
 
-    <button>Sign in</button>
-    <br>
-    <span>New to GitHub? <a href ="#">Create an account</a></span>
-
+        <button>Sign in</button>
+        <br><br>
+        <span>New to GitHub? <a href ="#">Create an account</a></span>
+    
+    </div>
+   
+   
    <footer>
-    <ul>
-        <ol>Terms</ol>
-        <ol>Policy</ol>
-        <ol>Security</ol>
-        <ol>Contact GitHub</ol>
-    </ul>
+        <ul class="list">
+            <ol><a href = "#">Terms</a></ol>
+            <ol><a href = "#">Policy</a></ol>
+            <ol><a href = "#">Security</a></ol>
+            <ol><a href = "#">Contact GitHub</a></ol>
+        </ul>
     </footer>
 
 </body>
